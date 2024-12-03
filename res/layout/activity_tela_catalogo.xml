@@ -49,6 +49,7 @@
         app:layout_constraintVertical_bias="0.244" />
 
     <CheckBox
+        android:id="@+id/checkTomate"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -73,7 +74,7 @@
         app:layout_constraintVertical_bias="0.300" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkUva"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -98,6 +99,7 @@
         app:layout_constraintVertical_bias="0.380" />
 
     <CheckBox
+        android:id="@+id/checkBatata"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -122,6 +124,7 @@
         app:layout_constraintVertical_bias="0.460" />
 
     <CheckBox
+        android:id="@+id/checkBeteraba"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -146,7 +149,7 @@
         app:layout_constraintVertical_bias="0.540" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkCebola"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -174,13 +177,15 @@
         android:id="@+id/ConfirmarPedido"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
         android:hint="Confirmar pedido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
+        app:layout_constraintVertical_bias="0.814"
+        app:strokeColor="@android:color/background_light" />
 
 
 
